@@ -1,5 +1,4 @@
 function city_country(city, country) {
-    //Returns a string formatted like City, Country
     return "".concat(city, ", ").concat(country);
 }
 var city1 = city_country("Lahore", "Pakistan");

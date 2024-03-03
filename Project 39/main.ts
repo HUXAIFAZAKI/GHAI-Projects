@@ -1,5 +1,4 @@
 function city_country(city: string, country: string): string {
-    //Returns a string formatted like City, Country
     return `${city}, ${country}`;
   }
   
