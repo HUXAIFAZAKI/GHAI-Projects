@@ -1,7 +1,7 @@
 function makeAlbum(artist: string, albumTitle: string, tracks: number): { artist: string; albumTitle: string; tracks: number }
 {
     return { artist, albumTitle, tracks };
-  }
+}
   
   // Creating albums
   const album1 = makeAlbum("The Beatles", "Abbey Road",5);
