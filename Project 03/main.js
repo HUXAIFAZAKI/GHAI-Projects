@@ -1,7 +1,15 @@
-var Name = "Huzaifa";
-var lowerCase = Name.toLowerCase();
-var upperCase = Name.toUpperCase();
-var titleCase = Name.split(' ').map(function (word) { return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase(); }).join(" ");
-console.log(lowerCase);
-console.log(upperCase);
-console.log(titleCase);
+var personName = "syed Huzaifa";
+console.log("Uppercase : " + personName.toUpperCase());
+console.log("Lowercase : " + personName.toLowerCase());
+function titleCase(word) {
+    var phrase;
+    phrase = word.split(" ");
+    // console.log(name)
+    for (var i = 0; i < phrase.length; i++) {
+        //console.log(name[i])
+        phrase[i] = phrase[i].charAt(0).toUpperCase() + phrase[i].slice(1);
+        //console.log(name[i])
+    }
+    return phrase.join(" ");
+}
+console.log("TitleCase : ", titleCase(personName));
