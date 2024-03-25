@@ -57,6 +57,7 @@ while (guesses !== 0) {
   }
   guesses--;
 }
+
 if(guesses === 0)
 {
     console.log("You Ran Out Of Guesses!");
